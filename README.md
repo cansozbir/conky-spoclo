@@ -24,23 +24,23 @@ Check Customise section for more information and chaning position.
 Install guide
 ----------------------
 ####Download
-	```
+
 	wget -O spoclo <URL>
-    ```
+
 ####Unzip and copy/move to .conky dir
-    ```
+    
     unzip spoclo
     mv conky-spotify-master ~/.conky/spoclo
-	```
+
 ####Install used fonts from spoclo/fonts
-    ```
+    
     cd ~/.conky/spoclo/fonts
     ./install.sh
-    ```
+    
 ####Run conky with custom config
-    ```
+    
     conky -c ~/.conky/spoclo/spotify-<variant>/spoclo_<variant>
-    ```
+    
 > **Note:**
 >Alternative: Copy content of desired spoclo variant into **~/.conkyrc** file and run conky without any parameter.
 > example: cat ~/.conky/spoclo/spotify-bottom/spoclo_rightedge.conky > ~/.conkyrc && conky
