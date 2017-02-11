@@ -44,8 +44,8 @@ Install guide
 >Alternative: Copy content of desired spoclo variant into **~/.conkyrc** file and run conky without any parameter.
 > example: cat ~/.conky/spoclo/spotify-bottom/spoclo_rightedge.conky > ~/.conkyrc && conky
 >
->AutoStartup: If you have issue running conky on startup with **-c ~/.conky/spoclo/spoclo_<variant>** parameter try running it with
-**conky -c /home/<yourusername>/.conky/spoclo/spoclo_<variant>**
+>AutoStartup: If you have issue running conky on startup with **-c ~/.conky/spoclo/spotify-\<variant\>/spoclo_\<variant\>.conky** parameter try running it with
+**conky -c /home/\<yourusername\>/.conky/spoclo/spoclo_\<variant\>.conky**
 
 -------------------------
 Customise
