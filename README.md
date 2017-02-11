@@ -1,13 +1,13 @@
 [Conky] Spoclo
 ===========
-![Spoclo preview](SpocloTop.png?raw=true "Spoclo_top Preview (variant 1)"
+![Spoclo preview](http://i.imgur.com/pDZHVAL.png "Spoclo_top Preview (/spotify-bottom/spoclo_rightedge.conky)")
 
 Spoclo is Conky theme. It shows current date&time and currently playing song on spotify if running.
 Based on:
  - [Conky Metro Clock by satya164 (deviantart)](http://www.deviantart.com/art/Conky-Metro-Clock-245432929)
  - [Conky-Spotify by Madh93 (github)](https://github.com/Madh93/conky-spotify)
 
-Spoclo comes in different variants for different places on screen:
+Spoclo comes in different variants for different places on screen (**check Imgur gallery**):
   - **/spotify-top/spoclo_center.conky** - Spotify indicator above time - Center of screen
   - **/spotify-top/spoclo_rightedge.conky** - Spotify indicator above time - Right edge of screen
   - **/spotify-top/spoclo_leftedge.conky** - Spotify indicator above time - Left edge of screen
@@ -15,17 +15,16 @@ Spoclo comes in different variants for different places on screen:
   - **/spotify-bottom/spoclo_rightedge.conky (recomended)** - Spotify indicator below time - Right edge of screen
   - **/spotify-bottom/spoclo_leftedge.conky** - Spotify indicator below time - Left edge of screen
 
+[Spoclo Imgur Gallery with previews](http://imgur.com/a/hnTYC "Spoclo imgur gallery previews")
 > **Note:**
 Check Customise section for more information and chaning position.
 
-![Spoclo preview](SpocloTop.png?raw=true "Spoclo_top Preview (with spotify indicator on top")
-![Spoclo preview2](SpocloBottom?raw=true "Spoclo_bottom Preview (with spotify indicator on bottom")
 -------------------------
 Install guide
 ----------------------
 ####Download
 
-	wget -O spoclo <URL>
+	wget -O spoclo https://github.com/Dacha204/conky-spoclo/archive/master.zip
 
 ####Unzip and copy/move to .conky dir
     
