@@ -29,7 +29,7 @@ Install guide
 ####Unzip and copy/move to .conky dir
     
     unzip spoclo
-    mv conky-spotify-master ~/.conky/spoclo
+    mv conky-spoclo-master ~/.conky/spoclo
 
 ####Install used fonts from spoclo/fonts
     
