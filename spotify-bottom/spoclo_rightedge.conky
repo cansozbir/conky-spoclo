@@ -65,7 +65,7 @@ ${alignr}${voffset 5}${font GE Inspira:size=25}${time %B} ${time %e}${font}${vof
 ${alignr}${voffset -20}${font Noto Sans:size=100}${time %I:%M %p}${font}${voffset 20}
 ${if_running spotify}\
 	${voffset -38}
-	${image ~/.conky/spoclo/spotify_icon.png -p 510,210 -s 65x65}\
+	${image ~/.conky/spoclo/spotify_icon.png -p 510,232 -s 65x65}\
 	${alignr}${voffset 0}${font GE Inspira Bold:size=18}${exec ~/.conky/spoclo/scripts/artist.sh}         ${font}${voffset -0}
 	${alignr}${voffset -12}${font GE Inspira:size=16}${exec ~/.conky/spoclo/scripts/title.sh}               ${font}${voffset 12}\
 ${endif}\
